@@ -4,7 +4,6 @@ import Container from '@mui/material/Container';
 import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import Avatar from '@mui/material/Avatar';
-import { WarningAmberSharp } from '@mui/icons-material';
 
 const NoPage = () => {
   return (
@@ -18,9 +17,6 @@ const NoPage = () => {
           alignItems: 'center',
         }}
       >
-        <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
-          <WarningAmberSharp />
-        </Avatar>
         <Typography component="h1" variant="h5">
           Sorry you are on a wrong page!
         </Typography>

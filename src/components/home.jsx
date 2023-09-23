@@ -23,6 +23,7 @@ export default function Home() {
           }}
         >
           Welcome to front load
+          
         </Box>
       </Container>
     </ThemeProvider>
